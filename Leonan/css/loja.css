@@ -1,0 +1,227 @@
+body>header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    filter: brightness(0.9);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+td figcaption {
+    text-align: center;
+}
+
+.navbar ul{
+    font-size: 0.9em;
+    position: relative;
+    float: right;
+    margin: 25px 0;
+}
+
+.navbar ul li{
+    display: inline;
+    padding-right: 20px;
+}
+
+.navbar a{
+    background-color: bisque;
+    border-radius: 12px;
+    padding: 10px;
+    
+}
+
+.navbar a:hover{
+    filter: brightness(0.9);
+
+}
+
+.navbar a:active{
+    filter: brightness(0.8);
+    border-bottom: 3px solid burlywood;
+}
+
+.navbar a:active span{
+       border-bottom: 3px dashed burlywood;
+}
+
+.logo{
+    margin: 30px;
+}
+
+.sacola{
+    background: url(/assets/sacola.png) no-repeat top ;
+    font-size: 1.1em;
+    width: 10vw;
+    float: right;
+    margin: 5px 20px 0 0;
+    padding-top: 4vh;
+    text-align: center;
+}
+
+.nav{
+    background-color: rgb(200, 200, 200);
+    border: none;
+    width: 100%;
+    font-size: 1.3em;
+    text-align: left;
+    padding: 12px;
+}
+
+.img-main{
+    margin: 15px;
+}
+
+.categorias{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-weight: 700;
+    padding: 10px;
+    transition: height 1s ease;
+    border-bottom: 10px solid rgb(200, 200, 200);
+}
+.categorias li{
+    padding: 10px;    
+    border-bottom: 3px solid rgb(200, 200, 200);
+}
+
+.hidden{
+    display: none;
+}
+
+.nav{
+    cursor: pointer;
+}
+
+.busca input:nth-child(2){
+    transform: scale(1.1);
+    position: relative;
+    float: right;
+    top: 10px;
+}
+
+.busca input:nth-child(1){
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    width: 13vw;
+}
+
+#main{
+    display: flex;
+    height: 70vh;
+    justify-content: space-between;
+}
+
+#main aside{
+    padding: 20px;
+    width: 20vw;
+}
+
+#main header{
+    font-size: 1.6em;
+    background-color: rgb(200, 200, 200);
+    margin-bottom: 20px;
+    padding: 12px;
+}
+
+#destaques{
+    padding: 20px;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+#destaques img{
+    border-radius: 15px;
+}
+
+.novidades{
+    background: salmon;
+    width: 30vw;
+    height: 50vh;
+    margin: 0 20px;
+    border-radius: 7px;
+}
+
+.novidades h1, .vendidos h1{
+    font-weight: 300;
+    padding: 15px;
+}
+
+.novidades main, .vendidos main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.novidades footer, .vendidos footer{
+    position: relative;
+    float: right;
+    right: 20px;
+}
+
+.btn-main {
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 2vh;
+    padding: 10px;
+    right: 10%;
+    cursor: pointer;
+    border-radius: 10px 5px 10px 5px;
+    position: relative;
+    display: inline-block;
+}
+
+  .btn-main:hover{
+    color: black;
+    background-color: white;
+    transition: 0.3s ease;
+  }
+  
+.btn-main:active{
+    filter: brightness(0.6);
+    transition: 0.3s ease;
+}
+
+  .btn-main::after {
+    content: '';
+    position: absolute;
+    top: 70%;
+    right: 40%;
+    border-style: solid;
+    border-width: 15px 0 15px 15px;
+    border-color: transparent transparent transparent black;
+    transform: rotate(90deg);
+  }
+  
+  .btn-main:hover::after {
+    border-color: transparent transparent transparent white;
+    transition: 0.3s ease;
+  }
+
+  .btn-main:active::after{
+    transition: 0.3s ease;
+}
+
+  .btn-main:focus {
+    outline: none;
+  }
+  
+.vendidos{
+    background: rgb(189,158,255);
+    width: 30vw;
+    height: 50vh;
+    margin: 0 20px;
+    border-radius: 7px;
+}
+
