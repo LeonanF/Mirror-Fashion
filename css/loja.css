@@ -10,13 +10,6 @@ a{
     color: inherit;
 }
 
-li{
-    list-style: none;
-}
-
-td figcaption {
-    text-align: center;
-}
 
 .navbar ul{
     font-size: 0.9em;
@@ -56,7 +49,7 @@ td figcaption {
 }
 
 .sacola{
-    background: url(/assets/sacola.png) no-repeat top ;
+    background: url(../assets/sacola.png) no-repeat top ;
     font-size: 1.1em;
     width: max-content;
     float: right;
@@ -134,7 +127,7 @@ td figcaption {
 
 #destaques{
     padding: 20px;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
 }
@@ -143,12 +136,24 @@ td figcaption {
     border-radius: 15px;
 }
 
+#down-footer{
+    height: 10vh;
+    filter: brightness(0.7);
+    background-color: white;
+}
+
+#down-footer h1{
+    margin: 1vh;
+    padding-top: 1vh;
+}
+
 .novidades{
     background: salmon;
     width: 30vw;
-    height: 50vh;
+    height: 60vh;
     margin: 0 20px;
     border-radius: 7px;
+    padding: 10px;
 }
 
 .novidades h1, .vendidos h1{
@@ -169,11 +174,31 @@ td figcaption {
     right: 20px;
 }
 
+.destaques-li{
+    float: left;
+}
+
+.destaques-li li{
+    display: inline-block;
+    width: 140px;
+    vertical-align: top;
+    width: 140px;
+
+    margin: 2vh;
+    padding-bottom: 10px;
+}
+
+.destaques-li figcaption{
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 0.7em;
+}
+
 .btn-main {
     background-color: black;
     color: white;
     border: none;
-    margin-top: 2vh;
+    margin-top: 1vh;
     padding: 10px;
     right: 10%;
     cursor: pointer;
@@ -220,8 +245,9 @@ td figcaption {
 .vendidos{
     background: rgb(189,158,255);
     width: 30vw;
-    height: 50vh;
+    height: 60vh;
     margin: 0 20px;
     border-radius: 7px;
+    padding: 10px;
 }
 
