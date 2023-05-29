@@ -1,0 +1,135 @@
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: white;
+    padding: 30px;
+    filter: brightness(0.85);
+}
+
+body{
+    background-image: url(/assets/body-background.png);
+}
+
+p{
+    text-align: justify;
+    margin: 15px 0;
+    font-weight: 400;
+    text-indent: 2.2em;
+    padding: 0 20px;
+}
+
+h2{
+    
+    font-family: 'Castoro Titling', cursive;
+}
+
+ul{
+    padding: 3em;
+    line-height: 1.5em;
+}
+
+footer{
+    background-image: url(/assets/fundo-rodape.png);
+    padding: 2em;
+}
+
+.title{
+    height: 2rem;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 20px;
+}
+
+.title h1{
+    font-family: 'Castoro Titling', cursive;
+    text-shadow: pink 4px 4px;
+    padding: 7px;
+    border-radius: 20px;
+    background-image: url(/assets/body-background.png);
+    z-index: 1;
+}
+
+.marca{
+    font-weight: bold;
+}
+
+.link{
+    color: red;
+    font-weight: 900;
+}
+
+.link:hover{
+    border-bottom: red 2px dotted;
+}
+
+.link:active{
+    filter: brightness(0.5);
+}
+
+.img{
+    background-color: wheat;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+    width: 30vw;
+    border-radius: 30px;
+}
+
+.img img{
+    width: 30vw;
+    border-radius: 30px;
+}
+
+.subtitle{
+    font-size: 1.3em;
+    text-indent: 15px;
+    border-bottom: 2px solid;
+    margin-bottom: 25px;
+    margin-top: 30vh;
+}
+
+.familia{
+    background-color: wheat;
+    width: 20vw;
+    text-align: center;
+    padding: 10px;
+    margin: 0 15px 15px 50px;
+    border-radius: 30px;
+    float: right;
+}
+
+.familia img{
+    width: 20vw;
+    height: 50vh;
+    border-radius: 20px;
+}
+
+
+.btn{
+    height: 10vh;
+    width: 40vw;
+    margin: 2em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/sobre-background.jpg);
+    border: 4px dashed;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn>h1{
+    font-weight: 300;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+.btn:active{
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+}
