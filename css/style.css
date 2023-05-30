@@ -9,7 +9,7 @@ header{
 }
 
 body{
-    background-image: url(/assets/body-background.png);
+    background-image: url(../assets/body-background.png);
 }
 
 p{
@@ -31,7 +31,7 @@ ul{
 }
 
 footer{
-    background-image: url(/assets/fundo-rodape.png);
+    background-image: url(../assets/fundo-rodape.png);
     padding: 2em;
 }
 
@@ -47,7 +47,7 @@ footer{
     text-shadow: pink 4px 4px;
     padding: 7px;
     border-radius: 20px;
-    background-image: url(/assets/body-background.png);
+    background-image: url(../assets/body-background.png);
     z-index: 1;
 }
 
@@ -114,7 +114,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/assets/sobre-background.jpg);
+    background-image: url(../assets/sobre-background.jpg);
     border: 4px dashed;
     border-radius: 10px;
     cursor: pointer;
